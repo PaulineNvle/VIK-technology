@@ -1,0 +1,110 @@
+/*Header*/
+
+body {
+    margin: 0px;
+    height: 200vh;
+}
+
+header {
+    top: 0;
+    position: sticky;
+    max-width: 100%;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+} 
+ /* Navbar container */
+ .navbar {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    background-color: #060644;
+    font-family: 'Avenir', sans-serif;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+
+   #logo-nav {
+    height: 85px;
+    width: 85px;
+  }
+
+  .right-nav {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    background-color: #060644;
+    font-family: 'Avenir', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navbar a, .right-nav a {
+    font-size: 16px;
+    color: #F49617;
+    text-align: center;
+    padding: 14px 23px;
+    text-decoration: none;
+  }
+
+  .dropdown {
+    overflow: hidden;
+  }
+
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #F49617;
+    padding: 14px 23px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+
+  .navbar a:hover, .dropdown:hover .dropbtn, .navbar svg:hover {
+    background-color: white;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f49617;
+    min-width: 122.8px;
+    max-width: 129px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: #060644;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } 
+
+  .right-nav svg {
+    align-items: center;
+    padding: 12px;
+  }
