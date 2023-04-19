@@ -1,70 +1,159 @@
-@font-face {
-    font-family: "Avenir";
-    src:
-    url(font/AvenirNextLTPro-It.otf),
-    url(font/AvenirNextLTPro-Regular.otf);
-  }
-footer {
-    background-color: #060644;
-    color: #F49617;
-    font-family: avenir;
-}
-.premiere-bordure {
-    border-color: #F49617;
-    border: solid 3px;
-    display: inline-flex;
-    justify-content: space-between;
-    display: flexbox;
-}
-#logo-vik-footer {
-    border-radius: 18%;
-    height: 85px;
-    width: 85px;
-}
-.adresse {
-    text-align: left;
-    font-size: 16px;
-}
-ul {
-    list-style-type: none;
+body {
+    font-family: 'Avenir', sans-serif;
+    padding: 100px;
 }
 
-#lien-vers-nos-reseaux-sociaux {
+footer {
+    color: #F49617;
+    font-family: avenir;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.footer-box {
+    background-color: rgba(6, 6, 68, 0.6);
+    border-color: #F49617;
+    border: solid 3px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    padding: 48px;
+}
+
+/*Footer first collumn*/
+
+#logo-footer {
+    border-radius: 18%;
+    height: 65px;
+    width: 65px;
+    margin-bottom: 16px;
+}
+
+#adresse {
+    text-align: left;
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+}
+
+#social-media {
     margin: 0;
     padding: 0;
     overflow: hidden;
     display: flex;
     text-align: center;
-    padding: 16px;
     text-decoration: none;
-    height: 24px;
-    width: 24px;
-}
-.plan-du-site {
-    display: inline-block;
-    font-size: 16px;
-    text-decoration: none;
-}
-#inscrivez-vous-a-notre-newsletter {
-    font-size: 18;
-    color: white;
-}
-h1 {
-    font-size: 18px;
-    color: white;
-}
-#formulaire{
-    color: white;
-    border: none;
 }
 
-ul.credits {
-    font-size: 14px;
-    list-style: none;
+.link-media {
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 16px;
 }
-ul.credits li {
-    display: inline-block;
+
+#link-facebook {
+    margin-left: 0px;
 }
-.a-souligner{
-    text-decoration: underline;
+
+/*Footer second collumn*/
+
+#form{
+    color: white;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    padding-right: 64px;
+
+}
+
+#inscrivez-vous{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: white;
+    margin-bottom: 8px;
+}
+
+#souscrire {
+    border: 0px;
+    background-color: #f49617;
+    color: #060644;
+    padding: 12px 24px;
+    text-align: center;
+    width: fit-content;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    cursor: pointer;
+}
+
+#email-input {
+    padding: 14px;
+    margin-top: 8px;
+}
+
+#mini-text {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1px;
+}
+
+/*Footer third collumn*/
+
+.site-plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.site-plan a {
+    text-decoration: none;
+    color: #f49617;
+    padding: 6px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 150%;
+    margin-left: 112px;
+}
+
+/*Credits*/
+
+.credits {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.credits div p {
+    color: white;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1px;
+    margin-top: 32px;
+    margin-bottom: 12px;
+}
+
+.link-credits {
+    margin: 12px;
+    color: white;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1px;
+}
+
+#legal-link {
+    margin-top: 32px;
 }
