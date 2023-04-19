@@ -3,6 +3,11 @@
 body {
     margin: 0px;
     height: 200vh;
+    font-family: 'Avenir', sans-serif;
+    background-color: #022047;
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
@@ -107,4 +112,151 @@ header {
   .right-nav svg {
     align-items: center;
     padding: 12px;
+  }
+
+  /*Form to send an email*/
+
+  main {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .form-card {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    margin-bottom: 56px;
+  }
+
+  .formulaire {
+    display: flex;
+    flex-direction: column;
+    padding-right: 23px;
+  }
+
+  .form-input {
+    border-color: #F49617;
+    padding: 12px;
+    margin-top: 8px;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+
+  .formulaire label {
+    font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+    color: #F49617;
+  }
+
+  .checkbox {
+    border-color: #F49617;
+    cursor: pointer;
+    border: 5px solid #f49617;
+    background: #F49617;
+    color: white;
+
+  }
+  
+  .logo-form {
+    padding-left: 23px;
+  }
+
+  .form-description {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    color: #F49617;
+  }
+
+  .form-title {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 120%;
+    margin-bottom: 12px;
+    color: #F49617;
+  }
+
+  label {
+    margin-top: 24px;
+  }
+
+  .button {
+    border: 0px;
+    background-color: #f49617;
+    color: #060644;
+    padding: 12px 24px;
+    margin-top: 12px;
+    text-align: center;
+    width: fit-content;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: white;
+  }
+
+  /*Other Contacts*/
+
+  #other-contacts {
+    margin-top: 56px;
+    padding-top: 112px;
+    padding-bottom: 112px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
+
+  .other-contact {
+    margin-left: 24px;
+    margin-right: 24px;
+    color: #F49617;
+  }
+
+  .other-contact a {
+    color: #f49617;
+  }
+
+  .img-contact {
+    margin-bottom: 12px;
+  }
+
+  .title-other-contact {
+    margin-top: 12px;
+    margin-bottom: 8px;
+  }
+
+  .text-other-contact{
+    margin-top: 8px;
+  }
+
+  /*Terms and Conditions*/
+
+  #terms-conditions {
+    margin-bottom: 48px;
+  }
+
+  #accord-contact, #read-condition {
+    text-align: center;
+    color: #F49617;
+    margin: 24px 92px;
+  }
+
+  #read-condition a {
+    color: white;
   }

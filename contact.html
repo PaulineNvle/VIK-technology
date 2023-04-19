@@ -11,7 +11,7 @@
 <body>
     <header>
         <div class="navbar">
-            <img src="#" id="logo-nav">
+            <img src="#" id="logo-nav" alt="Logo">
             <div class="nav-links">
                 <a href="index.html">Home</a>
                 <div class="dropdown">
@@ -43,9 +43,50 @@
             </div>
         </div>
     </header>
-    <body>
-        <main>
-            <h1>Hello World! </h1>
-        </main>
-    </body>
+    <main>
+        <form action="https://discord.com/channels/934120617492504606/1096393518634778654"> 
+            <div class="form-card">
+                <div class="formulaire">
+                    <h1 class="form-title">Contactez nous</h1>
+                    <p class="form-description">Vous voulez entrer en contact avec nous ? Il suffit de remplir le formulaire ci-dessous et quelqu'un de <span class="bold">V.I.K.</span> vous contactera bientôt.</p>
+                    <label for="form-name">Name</label><br>
+                    <input type="text" id="form-name" name="form-name" placeholder="John David" required class="form-input">
+                    <label for="form-mail">Email</label><br>
+                    <input type="email" id="form-mail" name="form-mail" placeholder="exemple@viktech.com" required class="form-input">
+                    <label for="form-message">Message</label><br>
+                    <textarea type="text" id="form-message" name="form-message" placeholder="Your message..." required class="form-input" rows="10" cols="20"></textarea>
+                    <label for="form-conditions"><input type="checkbox" value="terms-conditions" id="form-conditions" name="form-conditions" required class="checkbox">J'accepte les Termes et Conditions</label>
+                    <input type="submit" value="Envoyer" class="button">
+                </div>
+                <div class="logo-form">
+                    <img src="#" alt="Logo">
+                </div>
+            </div>
+        </form>
+        <div id="other-contacts">
+            <div id="phone-contact" class="other-contact">
+                <img src="img/Phone.svg" class="img-contact">
+                <h2 class="title-other-contact">Téléphone</h2>
+                <p class="text-other-contact">Appelez-nous du lundi au vendredi de 10h à 17h au numéro suivant.</p>
+                <a href="#">+32 4 57 23 84 22</a>
+            </div>
+            <div id="address-contact" class="other-contact">
+                <img src="img/Pin.svg" class="img-contact">
+                <h2 class="title-other-contact">Bureau</h2>
+                <p class="text-other-contact">Retrouvez-nous directement en agence pour nous rencontrer.</p>
+                <a href="#">Rue de Mulhouse 36, 4020 Liège, Belgique</a>
+            </div>
+            <div id="email-contact" class="other-contact">
+                <img src="img/Email.svg" class="img-contact">
+                <h2 class="title-other-contact">Email</h2>
+                <p class="text-other-contact">Ecrivez-nous à l'addresse mail suivante.</p>
+                <a href="mailto: loryncesur@gmail.com">contact@viktechnology.be</a>
+            </div>
+        </div>
+        <div id="terms-conditions">
+            <p id="accord-contact">En remplissant et en soumettant le formulaire ci-dessus, vous acceptez que vos données personnelles soient utilisées pour vous inscrire et vous envoyer des communications concernant votre question. Ces informations ne seront utilisées qu'à cette fin, à moins que vous n'ayez choisi de vous inscrire à notre newsletter. Vos données resteront confidentielles et seront envoyées via une connexion cryptée. Il ne sera pas distribué à des tiers.</p>
+            <p id="read-condition">Veuillez lire notre <a href="#">politique de confidentialité</a> pour des informations détaillées.</p>
+        </div>
+    </main>
+</body>
 </html>
