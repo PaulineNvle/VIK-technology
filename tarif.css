@@ -173,7 +173,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+
   }
 
   .tarif-job {
@@ -192,6 +192,11 @@ header {
     font-size: 56px;
     line-height: 120%;
     margin-top: 6px;
+  }
+
+  .tarif-job-icon {
+    width: 90px;
+    height: 90px;
   }
 
   .tarif-box-bottom {
