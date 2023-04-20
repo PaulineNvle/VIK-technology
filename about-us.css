@@ -1,171 +1,186 @@
 /*Header*/
 
 body {
-    
-    background-image:url(About-us4.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Avenir', sans-serif;
-    color: white;
-    font-weight: 400px;
-    font-size: 18px;
+  margin: 0px;
+  height: 200vh;
+  font-family: 'Avenir', sans-serif;
+  background-color: #022047;
+  background-image: url(img/Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-   
+.bold {
+font-weight: bold;
 }
 
 header {
-    top: 0;
-    position: sticky;
-    max-width: 100%;
+  top: 0;
+  position: sticky;
+  max-width: 100%;
 }
 
 .nav-links {
-    display: flex;
-    flex-direction: row;
-} 
- /* Navbar container */
- .navbar {
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
-    background-color: #060644;
-    font-family: 'Avenir', sans-serif;
-    padding-left: 100px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 100px;
-    align-items: center;
-    justify-content: space-between;
-    top:0;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-    justify-content: center;
-    
-  }
-
-   #logo-nav {
-    height: 85px;
-    width: 85px;
-  }
-
-  .right-nav {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
-    background-color: #060644;
-    font-family: 'Avenir', sans-serif;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .navbar a, .right-nav a {
-    font-size: 16px;
-    color: #F49617;
-    text-align: center;
-    padding: 14px 23px;
-    text-decoration: none;
-  }
-
-  .dropdown {
-    overflow: hidden;
-  }
-
-  .dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: #F49617;
-    padding: 14px 23px;
-    background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
-  }
-
-  .navbar a:hover, .dropdown:hover .dropbtn, .navbar svg:hover {
-    background-color: white;
-  }
-  
-  /* Dropdown content (hidden by default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f49617;
-    min-width: 122.8px;
-    max-width: 129px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    float: none;
-    color: #060644;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  } 
-
-  .right-nav svg {
-    align-items: center;
-    padding: 12px;
-  }
-
-  
-  /* About Us */
-
-.reunis-par-le-bruit {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  gap: 24px;
-
-  position:absolute;
-  width: 1440px;
-  height: 425px;
-  left: 0px;
-  top: 105px;
-  
-
-}
-
-
-.bloc1  {
   display: flex;
   flex-direction: row;
+} 
+/* Navbar container */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  background-color: #060644;
+  font-family: 'Avenir', sans-serif;
+  padding-left: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 100px;
   align-items: center;
-  padding: 112px 100px 112px 100px;
-  gap:80px;
-    
-  position:absolute;
-  width:1440px;
-  height:864px;
-  left: 0px;
-  top: 530px;
+  justify-content: space-between;
+  z-index: 99;
 }
 
-.p400 {
+ #logo-nav {
+  height: 85px;
+  width: 85px;
+  border-radius: 10px;
+}
+
+.right-nav {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  background-color: #060644;
+  font-family: 'Avenir', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar a, .right-nav a {
+  font-size: 16px;
+  color: #F49617;
+  text-align: center;
+  padding: 14px 23px;
+  text-decoration: none;
+}
+
+.dropdown {
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #F49617;
+  padding: 14px 23px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .navbar svg:hover {
+  background-color: white;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f49617;
+  min-width: 122.8px;
+  max-width: 129px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #060644;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+} 
+
+.right-nav svg {
+  align-items: center;
+  padding: 12px;
+}
+
+  /* About Us Main */
+
+#banner {
+  background-image: url(img/banner-about-us.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+#banner h1 {
+  text-align: center;
+  margin: 0px;
+  padding: 110px;
+  color: #F49617;
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 120%;
+  width: 50vw;
+}
+
+#main {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.block-line  {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;;
+  align-items: center;
+  padding: 100px;
+}
+
+.block1 {
+  margin-right: 32px;
+}
+
+.block2 {
+  margin-left: 32px
+}
+
+.block-text {
+  color: white;
+}
+
+.block-text h2 {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 120%;
+}
+
+.block-text p {
   font-family: 'Avenir', sans-serif;
   font-weight: 400px;
   font-size: 18px;
   font-style: normal;
-  width: 580px;
-  height: 351px;
   line-height: 150%;
-  text-align: right;
 
 }
 
@@ -174,83 +189,35 @@ header {
   font-weight: 400px;
   font-size: 18px;
   font-style: normal;
-  width: 580px;
-  height: 108px;
   line-height: 150%;
-  text-align: right;
+  text-align: left;
 }
-
-
-
-.image2{
-  width: 580px;
-  height: 640px;
-
-}
-
-.bloc2 {
-  display: flex;
-  align-items: center;
-  flex-direction: row-reverse;
-  padding: 112px 100px 112px 100px;
-  gap: 80px;
-
-  position: absolute;
-  width: 1440px;
-  height: 864px;
-  left: 0px;
-  top: 1394px;
-}
-.image3 {
-  width: 580px;
-  height: 640px;
-
-}
-.bloc3 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0px;
-  gap:24px;
-
-  position: absolute;
-  width: 845px;
-  height: 345px;
-  left:278px;
-  top: 2258px;
-
-
-}
-h1  {
-  font-family: 'Avenir', sans-serif;
-  font-weight: 800px;
-}
-
 
 .cliquez-ici {
-    padding: 20px 50px;
-    font-size: 1.5rem;
-    cursor: pointer;
-    border: 0px;
-    background: transparent;
-    position: relative;
-    transition: all .2s;
-    overflow: hidden;
-    color: #fff;
-    border-radius: 30px;
-    box-shadow: 0px -0px 0px 0px rgba(143, 64, 248, .5), 0px 0px 0px 0px rgba(39, 200, 255, .5);
-      }
-    .cliquez-ici::after {
-        content: '';
-        width: 400px;
-        height: 400px;
-        position: absolute;
-        top: -50px;
-        left: -100px;
-        background-image: linear-gradient(225deg, #27d86c 0%, #26caf8 50%, #c625d0 100%);
-        z-index: -1;
-        transition: all .5s;
-      }
+  padding: 20px 50px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border: 0px;
+  background: transparent;
+  position: relative;
+  transition: all .2s;
+  overflow: hidden;
+  color: #fff;
+  border-radius: 30px;
+  box-shadow: 0px -0px 0px 0px rgba(143, 64, 248, .5), 0px 0px 0px 0px rgba(39, 200, 255, .5);
+}
+
+.cliquez-ici::after {
+  content: '';
+  width: 400px;
+  height: 400px;
+  top: -50px;
+  left: -100px;
+  background-image: linear-gradient(225deg, #27d86c 0%, #26caf8 50%, #c625d0 100%);
+  z-index: -1;
+  transition: all .5s;
+  }
+
     .cliquez-ici:hover::after {
         transform: rotate(150deg); /* Permet de tourner l'effet arc-en-ciel */
       }
@@ -259,158 +226,159 @@ h1  {
         box-shadow: 10px -10px 25px 0px rgba(143, 64, 248, .25), -10px 10px 25px 0px rgba(39, 200, 255, .25);
       }
 
+/*Footer*/
 
-      footer {
-        color: #F49617;
-        font-family: avenir;
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    
-    .footer-box {
-        background-color: rgba(6, 6, 68, 0.6);
-        border-color: #F49617;
-        border: solid 3px;
-        display: grid;
-        grid-auto-flow: column;
-        grid-auto-columns: 1fr;
-        padding: 48px;
-    }
-    
-    /*Footer first collumn*/
-    
-    #logo-footer {
-        border-radius: 18%;
-        height: 65px;
-        width: 65px;
-        margin-bottom: 16px;
-    }
-    
-    #adresse {
-        text-align: left;
-        font-size: 16px;
-        margin-top: 16px;
-        margin-bottom: 16px;
-        font-family: 'Avenir';
-        font-style: normal;
-        font-weight: 800;
-        line-height: 150%;
-    }
-    
-    #social-media {
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        display: flex;
-        text-align: center;
-        text-decoration: none;
-    }
-    
-    .link-media {
-        margin-left: 6px;
-        margin-right: 6px;
-        margin-top: 16px;
-    }
-    
-    #link-facebook {
-        margin-left: 0px;
-    }
-    
-    /*Footer second collumn*/
-    
-    #form{
-        color: white;
-        border: 0px;
-        display: flex;
-        align-items: center;
-        padding-right: 64px;
-    
-    }
-    
-    #inscrivez-vous{
-        font-family: 'Avenir';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 150%;
-        color: white;
-        margin-bottom: 8px;
-    }
-    
-    #souscrire {
-        border: 0px;
-        background-color: #f49617;
-        color: #060644;
-        padding: 12px 24px;
-        text-align: center;
-        width: fit-content;
-        font-family: 'Avenir';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 150%;
-        cursor: pointer;
-    }
-    
-    #email-input {
-        padding: 14px;
-        margin-top: 8px;
-    }
-    
-    #mini-text {
-        font-family: 'Avenir';
-        font-style: normal;
-        font-weight: lighter;
-        font-size: 1px;
-    }
-    
-    /*Footer third collumn*/
-    
-    .site-plan {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    .site-plan a {
-        text-decoration: none;
-        color: #f49617;
-        padding: 6px;
-        font-family: 'Avenir';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 16px;
-        line-height: 150%;
-        margin-left: 112px;
-    }
-    
-    /*Credits*/
-    
-    .credits {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    
-    .credits div p {
-        color: white;
-        font-family: 'Avenir';
-        font-style: normal;
-        font-weight: lighter;
-        font-size: 1px;
-        margin-top: 32px;
-        margin-bottom: 12px;
-    }
-    
-    .link-credits {
-        margin: 12px;
-        color: white;
-        font-family: 'Avenir';
-        font-style: normal;
-        font-weight: lighter;
-        font-size: 1px;
-    }
-    
-    #legal-link {
-        margin-top: 32px;
+footer {
+  color: #F49617;
+  font-family: avenir;
+  margin-left: 100px;
+  margin-right: 100px;
+}
 
+.footer-box {
+  background-color: rgba(6, 6, 68, 60%);
+  border-color: #F49617;
+  border: solid 3px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  padding: 48px;
+}
+
+/*Footer first collumn*/
+
+#logo-footer {
+  border-radius: 18%;
+  height: 65px;
+  width: 65px;
+  margin-bottom: 16px;
+}
+
+#adresse {
+  text-align: left;
+  font-size: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%;
+}
+
+#social-media {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+}
+
+.link-media {
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-top: 16px;
+}
+
+#link-facebook {
+  margin-left: 0px;
+}
+
+/*Footer second collumn*/
+
+#form{
+  color: white;
+  border: 0px;
+  display: flex;
+  align-items: center;
+  padding-right: 64px;
+
+}
+
+#inscrivez-vous{
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: white;
+  margin-bottom: 8px;
+}
+
+#souscrire {
+  border: 0px;
+  background-color: #f49617;
+  color: #060644;
+  padding: 12px 24px;
+  text-align: center;
+  width: fit-content;
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  cursor: pointer;
+}
+
+#email-input {
+  padding: 14px;
+  margin-top: 8px;
+}
+
+#mini-text {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 1px;
+}
+
+/*Footer third collumn*/
+
+.site-plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.site-plan a {
+  text-decoration: none;
+  color: #f49617;
+  padding: 6px;
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 150%;
+  margin-left: 112px;
+}
+
+/*Credits*/
+
+.credits {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.credits div p {
+  color: white;
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 10px;
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+
+.link-credits {
+  margin: 12px;
+  color: white;
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 10px;
+}
+
+#legal-link {
+  margin-top: 32px;
+}
