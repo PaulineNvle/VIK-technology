@@ -408,7 +408,7 @@ header {
     font-family: 'Avenir';
     font-style: normal;
     font-weight: lighter;
-    font-size: 1px;
+    font-size: 10px;
     margin-top: 32px;
     margin-bottom: 12px;
 }
@@ -419,7 +419,7 @@ header {
     font-family: 'Avenir';
     font-style: normal;
     font-weight: lighter;
-    font-size: 1px;
+    font-size: 10px;
 }
 
 #legal-link {
