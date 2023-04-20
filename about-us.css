@@ -2,7 +2,7 @@
 
 body {
     
-    background-image:url(About-us4.png);
+    background-image:url(img/About-us4.png);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Avenir', sans-serif;
@@ -413,4 +413,4 @@ h1  {
     
     #legal-link {
         margin-top: 32px;
-
+    }
