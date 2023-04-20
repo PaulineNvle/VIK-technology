@@ -2,7 +2,6 @@
 
 body {
   margin: 0px;
-  height: 200vh;
   font-family: 'Avenir', sans-serif;
   background-color: #022047;
   background-image: url(img/Background.png);
@@ -151,8 +150,8 @@ header {
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: 1fr;;
-  align-items: center;
-  padding: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .block1 {
@@ -160,11 +159,19 @@ header {
 }
 
 .block2 {
-  margin-left: 32px
+  margin-left: 32px;
+}
+
+.block-right {
+  display: grid;
+  justify-content: right;
 }
 
 .block-text {
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .block-text h2 {
@@ -181,16 +188,6 @@ header {
   font-size: 18px;
   font-style: normal;
   line-height: 150%;
-
-}
-
-.p500 {
-  font-family: 'Avenir', sans-serif;
-  font-weight: 400px;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 150%;
-  text-align: left;
 }
 
 .cliquez-ici {
