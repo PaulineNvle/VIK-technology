@@ -1,5 +1,5 @@
 .body {
-  background-image: url(Background.svg);
+  background-image: url(/img/Background.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -140,7 +140,6 @@ li {
 }
 
 .slides-item {
-  align-items: center;
   border-radius: 10px;
   display: flex;
   flex-shrink: 0;
