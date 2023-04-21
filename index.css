@@ -3,6 +3,7 @@ body {
   background-position: center;
   background-size: cover;
   flex-direction: column;
+  margin: 0px;
 }
 .p {
   color: white;
@@ -23,7 +24,7 @@ body {
 
 .p2 {
   color: white;
-  font-family: avenir;
+  font-family: 'avenir', sans-serif;
   font-size: 24px;
   font-weight: 800px;
   text-align: left;
@@ -332,38 +333,6 @@ footer {
 #legal-link {
   margin-top: 32px;
 }
-
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@OzlemKan 
-PaulineNvle
-/
-VIK-technology
-Public
-Fork your own copy of PaulineNvle/VIK-technology
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Beta Try the new code view
-VIK-technology/contact.css
-@Ilytopia
-Ilytopia Contact and Nav Bar
-Latest commit d98c4f5 19 hours ago
- History
- 1 contributor
-110 lines (95 sloc)  2.04 KB
- 
 
 /*Header*/
 
