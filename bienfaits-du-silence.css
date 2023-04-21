@@ -126,69 +126,130 @@ p{
   font-size: 16px;
   text-align: left;
 }
+.bienfaits{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 0px;
+  gap: 24px;
+  
+}
+.titre-bienfaits{
+  font-size: 56px;
+}
+
+.texte-bienfaits{
+  width: 768px;
+  height: 108px;
+
+}
 .div-cerveau  {
   border: solid 1px white;
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0px;
-
+  height: 520px;
 }
+
 #texte-cerveau  {
   padding: 175px 48px;
+  display: flex;
+  flex-direction: column;
+  width: 656px;
 }
 
 #image-cerveau {
   width: 656px;
   height: 520px;
+  float:left;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .reveil-tete {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
   padding: 0px;
   gap: 48px;
-
+  margin-top: 88px;
 }
+
 .div-reveil {
   border: solid  1px white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  width: 632px;
 }
+
+#image-reveil{
+  width: 632px;
+  height: 300px;
+  display: flex;
+}
+
+#texte-reveil{
+  padding-left: 48px;
+  padding-right: 48px;
+  display: flex;
+  flex-direction: column;
+}
+
 .div-tete {
   border: solid 1px white;
 }
 
+#texte-tete{
+  padding: 48px;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.coeur-microbe{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  padding: 0px;
+  gap: 48px;
+  margin-top: 68px;
+}
 
 .div-coeur  {
-  border: solid 1px white;
+  border: solid  1px white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  width: 632px;
 }
+
+#texte-coeur{
+  padding: 24px;
+  gap: 8px;  
+  display: flex;
+  flex-direction: column;
+}
+
 .div-microbe {
-  border: solid 1px white;
+  border: solid  1px white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  width: 632px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
+#texte-microbe{
+  padding: 24px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
 
 
 
@@ -296,7 +357,7 @@ footer {
     font-family: 'Avenir';
     font-style: normal;
     font-weight: lighter;
-    font-size: 1px;
+    font-size: 12px;
 }
 
 /*Footer third collumn*/
