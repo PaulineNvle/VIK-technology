@@ -8,6 +8,35 @@ body {
     background-image: url(img/Background.png);
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
+}
+
+h1 {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 120%;
+}
+
+h2 {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+h3 {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 header {
@@ -115,91 +144,92 @@ header {
     padding: 12px;
   }
 
-  /*Form to send an email*/
+  /*Main*/
 
   main {
     padding-left: 100px;
     padding-right: 100px;
   }
 
-  .form-card {
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 1fr;
-    margin-bottom: 56px;
-  }
-
-  .formulaire {
+  #tarifs {
     display: flex;
-    flex-direction: column;
-    padding-right: 23px;
-  }
-
-  .form-input {
-    border-color: #F49617;
-    padding: 12px;
-    margin-top: 8px;
-  }
-
-  .bold {
-    font-weight: bold;
-  }
-
-  .formulaire label {
-    font-family: 'Avenir';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-    color: #F49617;
-  }
-
-  .checkbox {
-    border-color: #F49617;
-    cursor: pointer;
-    border: 5px solid #f49617;
-    background: #F49617;
-    color: white;
-
-  }
-  
-  .logo-form {
-    padding-left: 23px;
-    display: flex;
-    align-items: center;
     justify-content: center;
+    flex-direction: column;
   }
 
-  .logo-form img {
-    border-radius: 15px;
+  #tarif-text {
+    text-align: center;
+    color: white;
+    margin-top: 64px;
   }
 
-  .form-description {
+  #tarif-text h2 {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 120%;
+    margin-bottom: 12px;
+  }
+
+  #tarif-text p {
     font-family: 'Avenir';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
     margin-top: 12px;
-    margin-bottom: 8px;
-    color: #F49617;
   }
 
-  .form-title {
+  .all-tarif-box {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
+
+  .tarif-box {
+    border: 3px solid #F49617;
+    color: white;
+    margin: 16px;
+    padding: 32px;
+    margin-bottom: 100px;
+  }
+
+  .tarifs-box-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+
+  .tarif-job {
     font-family: 'Avenir';
     font-style: normal;
-    font-weight: 900;
-    font-size: 48px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 140%;
+    margin-bottom: 6px;
+  }
+
+  .tarif-job-tarif {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
     line-height: 120%;
-    margin-bottom: 12px;
-    color: #F49617;
+    margin-top: 6px;
   }
 
-  label {
-    margin-top: 24px;
+  .tarif-job-icon {
+    width: 90px;
+    height: 90px;
   }
 
-  .button {
+  .tarif-box-bottom {
+    list-style: none;
+  }
+
+  .tarif-button {
     border: 0px;
     background-color: #f49617;
     color: #060644;
@@ -215,63 +245,35 @@ header {
     cursor: pointer;
   }
 
-  .button:hover {
+  .tarif-button:hover {
     background-color: white;
   }
 
-  /*Other Contacts*/
-
-  #other-contacts {
-    margin-top: 56px;
-    padding-top: 112px;
-    padding-bottom: 112px;
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 1fr;
+  #partenaires {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
   }
 
-  .other-contact {
-    margin-left: 24px;
-    margin-right: 24px;
-    color: #F49617;
+  #partenaires-text {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 140%;
+    margin-right: 32px
   }
 
-  .other-contact a {
-    color: #f49617;
+  #partenaire-logo {
+    margin-left: 32px;
   }
 
-  .img-contact {
-    margin-bottom: 12px;
-  }
+/*Footer*/
 
-  .title-other-contact {
-    margin-top: 12px;
-    margin-bottom: 8px;
-  }
-
-  .text-other-contact{
-    margin-top: 8px;
-  }
-
-  /*Terms and Conditions*/
-
-  #terms-conditions {
-    margin-bottom: 48px;
-  }
-
-  #accord-contact, #read-condition {
-    text-align: center;
-    color: #F49617;
-    margin: 24px 92px;
-  }
-
-  #read-condition a {
-    color: white;
-  }
-
-  /*Footer*/
-
-  footer {
+footer {
     color: #F49617;
     font-family: avenir;
     margin-left: 100px;
