@@ -2,7 +2,6 @@
 
 body {
     margin: 0px;
-    height: 200vh;
     font-family: 'Avenir', sans-serif;
     background-color: #022047;
     background-image: url(img/Background.png);
@@ -23,7 +22,7 @@ h2 {
   font-family: 'Avenir';
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 32px;
   line-height: 120%;
 }
 
@@ -31,7 +30,7 @@ h3 {
   font-family: 'Avenir';
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 120%;
 }
 
@@ -250,27 +249,41 @@ header {
   }
 
   #partenaires {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr 2fr;
     margin-top: 80px;
     margin-bottom: 80px;
   }
 
-  #partenaires-text {
+  #partenaire-text {
     font-family: 'Avenir';
     font-style: normal;
     font-weight: 800;
     font-size: 24px;
     line-height: 140%;
-    margin-right: 32px
+    margin-right: 64px;
+    margin-left: 64px;
   }
 
-  #partenaire-logo {
+  #partenaire-logo-group {
     margin-left: 32px;
+    margin-right: 32px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    align-items: center;
   }
 
+  .partenaire-logo {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
+
+  .tarif-caracteristique {
+    margin-top: 100px;
+  }
 /*Footer*/
 
 footer {
