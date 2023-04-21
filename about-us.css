@@ -174,7 +174,7 @@ header {
   justify-content: center;
 }
 
-.block-text h2 {
+h2 {
   font-family: 'Avenir';
   font-style: normal;
   font-weight: 800;
@@ -190,38 +190,37 @@ header {
   line-height: 150%;
 }
 
-.cliquez-ici {
-  padding: 20px 50px;
-  font-size: 1.5rem;
-  cursor: pointer;
-  border: 0px;
-  background: transparent;
-  position: relative;
-  transition: all .2s;
-  overflow: hidden;
-  color: #fff;
-  border-radius: 30px;
-  box-shadow: 0px -0px 0px 0px rgba(143, 64, 248, .5), 0px 0px 0px 0px rgba(39, 200, 255, .5);
+.Call-to-action {
+  text-align: center;
+  margin-bottom: 100px;
+  color: white;
 }
 
-.cliquez-ici::after {
-  content: '';
-  width: 400px;
-  height: 400px;
-  top: -50px;
-  left: -100px;
-  background-image: linear-gradient(225deg, #27d86c 0%, #26caf8 50%, #c625d0 100%);
-  z-index: -1;
-  transition: all .5s;
-  }
+.Call-to-action h2 {
+  width: 40vw;
+  margin: auto;
+  margin-bottom: 24px;
+}
 
-    .cliquez-ici:hover::after {
-        transform: rotate(150deg); /* Permet de tourner l'effet arc-en-ciel */
-      }
-    .cliquez-ici:hover {
-        transform: translate(0,-6px); /* Décale en haut */
-        box-shadow: 10px -10px 25px 0px rgba(143, 64, 248, .25), -10px 10px 25px 0px rgba(39, 200, 255, .25);
-      }
+.cliquez-ici {
+  border: 0px;
+  background-color: #f49617;
+  color: #060644;
+  padding: 12px 24px;
+  margin-top: 12px;
+  text-align: center;
+  width: fit-content;
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  cursor: pointer;
+}
+
+.cliquez-ici:hover {
+  background-color: white;
+}
 
 /*Footer*/
 
