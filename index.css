@@ -1,0 +1,457 @@
+.body {
+  background-image: url(Background.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-direction: column;
+}
+.p {
+  color: white;
+  font-family: avenir;
+  width: 1037px;
+  height: 107px;
+  font-size: 24px;
+  margin: 52px 166px 52px 240px;
+  text-align: center;
+  line-height: 36px;
+}
+
+.h1 {
+  color: white;
+  font-size: 48px;
+  text-align: center;
+}
+
+.p2 {
+  color: white;
+  font-family: avenir;
+  font-size: 24px;
+  font-weight: 800px;
+  text-align: left;
+  line-height: 36px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.flex-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.textbox {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.ensavoirplus {
+  background-color: #f49617;
+  border: none;
+  width: 147px;
+  height: 48px;
+}
+
+.h1 {
+  font-family: avenir;
+}
+
+.flex-container {
+  display: flexbox;
+  justify-content: space-evenly;
+}
+
+.tarif {
+  color: white;
+  font-family: avenir;
+  border: #f49617;
+  border-style: solid;
+  flex: none;
+  padding: 32px;
+  width: 370px;
+  height: 555px;
+  margin-bottom: 50px;
+}
+
+ul {
+  list-style-type: "✓";
+  text-align: center;
+  padding-inline-start: 70px;
+  line-height: 2.5;
+
+  width: 306px;
+  height: 160px;
+}
+
+.tarif2 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.clienttype {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+li {
+  text-align: left;
+  padding-left: 30px;
+}
+
+.prix {
+  font-size: 56px;
+  text-align: center;
+  font-weight: bolder;
+}
+.pourcommencer {
+  background: #f49617;
+  border: 1px solid #f49617;
+  width: 306px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 8px;
+  margin: 0px 32px 32px 32px;
+}
+
+.carousel {
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.slides {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.slides-item {
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  flex-shrink: 0;
+  font-size: 100px;
+  height: 600px;
+  justify-content: center;
+  margin: 0 1rem;
+  position: relative;
+  transform: scale(1);
+  transform-origin: center center;
+  transition: transform 0.5s;
+  width: 100%;
+  scroll-snap-align: start;
+}
+
+footer {
+  color: #f49617;
+  font-family: avenir;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.footer-box {
+  background-color: rgba(6, 6, 68, 0.6);
+  border-color: #f49617;
+  border: solid 3px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  padding: 48px;
+}
+
+/*Footer first collumn*/
+
+#logo-footer {
+  border-radius: 18%;
+  height: 65px;
+  width: 65px;
+  margin-bottom: 16px;
+}
+
+#adresse {
+  text-align: left;
+  font-size: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%;
+}
+
+#social-media {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+}
+
+.link-media {
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-top: 16px;
+}
+
+#link-facebook {
+  margin-left: 0px;
+}
+
+/*Footer second collumn*/
+
+#form {
+  color: white;
+  border: 0px;
+  display: flex;
+  align-items: center;
+  padding-right: 64px;
+}
+
+#inscrivez-vous {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: white;
+  margin-bottom: 8px;
+}
+
+#souscrire {
+  border: 0px;
+  background-color: #f49617;
+  color: #060644;
+  padding: 12px 24px;
+  text-align: center;
+  width: fit-content;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  cursor: pointer;
+}
+
+#email-input {
+  padding: 14px;
+  margin-top: 8px;
+}
+
+#mini-text {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+/*Footer third collumn*/
+
+.site-plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.site-plan a {
+  text-decoration: none;
+  color: #f49617;
+  padding: 6px;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 150%;
+  margin-left: 112px;
+}
+
+/*Credits*/
+
+.credits {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.credits div p {
+  color: white;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 10px;
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+
+.link-credits {
+  margin: 12px;
+  color: white;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 10px;
+}
+
+#legal-link {
+  margin-top: 32px;
+}
+
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@OzlemKan 
+PaulineNvle
+/
+VIK-technology
+Public
+Fork your own copy of PaulineNvle/VIK-technology
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Beta Try the new code view
+VIK-technology/contact.css
+@Ilytopia
+Ilytopia Contact and Nav Bar
+Latest commit d98c4f5 19 hours ago
+ History
+ 1 contributor
+110 lines (95 sloc)  2.04 KB
+ 
+
+/*Header*/
+
+body {
+  margin: 0px;
+  height: 200px;
+}
+
+header {
+  top: 0;
+  position: sticky;
+  max-width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+}
+/* Navbar container */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  background-color: #060644;
+  font-family: "Avenir", sans-serif;
+  padding-left: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 100px;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 99;
+}
+
+#logo-nav {
+  height: 85px;
+  width: 85px;
+}
+
+.right-nav {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  background-color: #060644;
+  font-family: "Avenir", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar a,
+.right-nav a {
+  font-size: 16px;
+  color: #f49617;
+  text-align: center;
+  padding: 14px 23px;
+  text-decoration: none;
+}
+
+.dropdown {
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #f49617;
+  padding: 14px 23px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn,
+.navbar svg:hover {
+  background-color: white;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f49617;
+  min-width: 122.8px;
+  max-width: 129px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #060644;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.right-nav svg {
+  align-items: center;
+  padding: 12px;
+}
