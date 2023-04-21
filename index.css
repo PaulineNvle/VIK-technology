@@ -1,8 +1,7 @@
-.body {
+body {
   background-image: url(/img/Background.png);
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
   flex-direction: column;
 }
 .p {
@@ -62,6 +61,7 @@
 
 .h1 {
   font-family: avenir;
+  margin-top: 100px;
 }
 
 .flex-container {
@@ -140,11 +140,10 @@ li {
 }
 
 .slides-item {
-  border-radius: 10px;
   display: flex;
   flex-shrink: 0;
   font-size: 100px;
-  height: 600px;
+  height: 400px;
   justify-content: center;
   margin: 0 1rem;
   position: relative;
@@ -153,6 +152,31 @@ li {
   transition: transform 0.5s;
   width: 100%;
   scroll-snap-align: start;
+}
+
+.slider-nav {
+  align-items: center;
+  background-color: #f49617;
+  border-radius: 50%;
+  color: #000;
+  display: inline-flex;
+  height: 1.5rem;
+  justify-content: center;
+  padding: 0.5rem;
+  position: relative;
+  text-decoration: none;
+  width: 1.5rem;
+}
+
+.carousel__nav {
+  padding: 1.25rem 0.5rem;
+  margin-left: 550px;
+}
+
+.slider-nav:hover,
+.slider-nav:active {
+  background-color: #000;
+  color: #f49617;
 }
 
 footer {
