@@ -338,7 +338,6 @@ footer {
 
 body {
   margin: 0px;
-  height: 200px;
 }
 
 header {
@@ -364,7 +363,7 @@ header {
   padding-right: 100px;
   align-items: center;
   justify-content: space-between;
-  z-index: 99;
+  z-index: 99
 }
 
 #logo-nav {
