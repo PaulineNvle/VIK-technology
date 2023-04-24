@@ -369,6 +369,7 @@ header {
 #logo-nav {
   height: 85px;
   width: 85px;
+  border-radius: 10px;
 }
 
 .right-nav {
